@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav class="navigation">
+        <a href="index.html"><h1>BACK</h1></a>
+     <section class="container">
+        <header>Registration Form</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter full name"required>
+            </div>
+            <div class="input-box">
+                <label>Email Address</label>
+                <input type="text" placeholder="Enter email address"required/>
+            </div>
+          <div class="column">
+            <div class="input-box">
+                <label>Phone Number</label>
+                <input type="text" placeholder="Enter Phone number"required/>
+            </div>
+            <div class="input-box">
+                <label>Birth date</label>
+                <input type="text" placeholder="Enter Birth date"required/>
+            </div>
+          </div>
+
+        <div class="gender-box">
+            <h3>Gender</h3>
+            <div class="gender-option">
+                <div class="gender">
+                    <input type="radio" id="check" name="gender"checked>
+                    <label for="check-male">Male</label>
+                </div>
+
+                <div class="gender">
+                    <input type="radio" id="check" name="gender">
+                    <label for="check-female">Female</label>
+                </div>
+
+                <div class="gender">
+                    <input type="radio" id="check" name="gender">
+                    <label for="check-other">Prefer not to say</label>
+                </div>
+            </div>
+        </div>
+         <div class="input-box address">
+            <label>Address</label>
+            <input type="text" placeholder="Enter Street Address" required>
+            <input type="text" placeholder="Enter Street Address line 2 " required>
+            <div class="column">
+                <div class="select-box">
+                    <select>
+                        <option>Philippines</option>
+                        <option>Japan</option>
+                        <option>Korea</option>
+                        <option>China</option>
+                        <option>USA</option>
+                        <option>Italy</option>
+                    </select>
+                </div>
+            </div>
+            <input type="text" placeholder="Enter your city" required>
+            <input type="text" placeholder="Enter your region" required>
+            <input type="text" placeholder="Enter your postal code" required>
+
+         </div>
+         <button>Submit</button>
+        </form>
+     </section>
+</body>
+</html>
